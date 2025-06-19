@@ -16,6 +16,10 @@ Turns out this display mode is also useful in debugging. By looking at the "dept
 
 At the end of that segment, Bryce has some fun and adds some motion to the sphere via the time parameter. You can check that out here [Second Fragment Shader](second.frag).
 
+Caleb enters the fray in the fourth segment and walks us through some of the neat hacks that allow for instancing of data - without actually duplicating the sdf. A single call to the sdf for a sphere as well as some clever manipulation of data, gives the image below. This is rendered via normals that are numerically computed based on the map. This render is another useful debug default rendering style that we can use if needed. You can check out the fragment shader I wrote based on the segment here [Third Fragment Shader](third.frag).
+
+<img src="thirdfrag.png" width="200">
+
 
 # Other things!
 We got to much more this summer than the tutorial video shows. They implemented clouds and heightmaps. They dove into reflections, refractions, fresnel, hard shadows, and soft shadows!  They had a few artistic and rainbow pop explorations. It is always great to have fun with it when you're learning - so don't be afraid to experiment and have a good time. If you poke around Caleb and Bryce's shadertoy, you'll bump into a few of those experimentations.
