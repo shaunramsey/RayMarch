@@ -47,7 +47,7 @@ Michael Walczyk's blog was useful for Bryce in a condensed tight package that ex
 
 # Other Useful Resources
 
-- [SDF Functions](https://iquilezles.org/articles/distfunctions/)
+- [SDF Functions](https://iquilezles.org/articles/distfunctions/) from IQ
 - More To Come
   
 
