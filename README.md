@@ -26,6 +26,7 @@ If you're going to get into computer graphics, chances are you'll bump into more
 
 
 Resource Content
-[SDF Functions][https://iquilezles.org/articles/distfunctions/]
+- [SDF Functions](https://iquilezles.org/articles/distfunctions/)
+- More To Come
 
 
