@@ -21,10 +21,10 @@ Links to other Content!
 
 Lots of great resources are from those that came before. Check them out!
 Inigo Quilez has a wealth of topics and articles on his website (and shadertoy) that are useful to anybody starting out.
-We were inspired by his youtube video here: [Inigo Quilez's Mathematical Landscape](https://www.youtube.com/watch?v=BFld4EBO2RE&t=1s) but we wanted to offer up a little more help to get users on their feet.
+We were inspired by his youtube video here: [Inigo Quilez's Mathematical Landscape Video](https://www.youtube.com/watch?v=BFld4EBO2RE&t=1s) but we wanted to offer up a little more help to get users on their feet.
 If you're going to get into computer graphics, chances are you'll bump into more of his stuff - as we did [Inigo Quilez's Website](https://iquilezles.org/)
 
-Art of Code over on youtube inspired Caleb to dig at Gyroids and include them in his lamp. Specifically this video is a place where he does an investigation and a series of experimentation [Art Of Code)(https://www.youtube.com/watch?v=-adHIyjIYgk)
+Art of Code over on youtube inspired Caleb to dig at Gyroids and include them in his lamp. Specifically this video is a place where he does an investigation and a series of experimentation [Art Of Code's Gyroid Video](https://www.youtube.com/watch?v=-adHIyjIYgk)
 
 Other Content
 - [SDF Functions](https://iquilezles.org/articles/distfunctions/)
