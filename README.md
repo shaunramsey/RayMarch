@@ -36,9 +36,19 @@ Kishimisu has a tutorial that any ray marching art-inspired person should watch.
 
 Michael Walczyk's blog was useful for Bryce in a condensed tight package that explains ray marching [Michael Walczyk's Blog Post](https://michaelwalczyk.com/blog-ray-marching.html)
 
-# Other Content
+# Our Shaders
+
+- [My Raymarcher Explainer](https://www.shadertoy.com/view/Wfc3z2) P switches to 3D, H resets, T toggles the "screen", R widens the screen, WASD and Arrow keys do movement, F toggles movement of eye position vs. the screen position
+- [My Lambertian Positional/Directional Explainer](https://www.shadertoy.com/view/wft3Ws)
+- [My Specular and multi-light Demn](https://www.shadertoy.com/view/tfdGDs)
+- [Caleb's Refraction Study](https://www.shadertoy.com/view/wcVGR3)
+- [Caleb's Lamp](https://www.shadertoy.com/view/tfcSW8)
+- [Bryce's Ball of Glow](https://www.shadertoy.com/view/WctXzN) 
+
+# Other Useful Resources
 
 - [SDF Functions](https://iquilezles.org/articles/distfunctions/)
 - More To Come
+  
 
 
