@@ -7,4 +7,5 @@ The video tutorial focuses on using shader toy to teach you the fundamentals. Be
 
 I wrote the following fragment shader by watching the student's first ray marching segment and adapting to my style. I tend to comment more than the students but I also tended towards using more common variable names. Your mileage may vary and my hope is that the combination of the resources is more beneficial than just one.
 
-*link to first frag shader goes here
+You can check out the first fragment shader [First Fragment Shader](first.frag).
+<img src="firstfrag.png" alt"Pink Ball" width="300">
