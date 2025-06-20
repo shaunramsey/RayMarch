@@ -2,7 +2,7 @@
 
 A repository for ray marching tutorials and code. Code is provided under an MIT license.
 
-I received a grant for 5 weeks to teach two students the fundamentals of ray marching from the ground up. I challenged them to gather resources, watch videos, and find holes in those resources. Our goal was to produce tutorial content to then teach ray marching to other students in the future. They decided to make videos! This page lists links to the shaders we created as well as to other content that we deemed useful to pull these students up to speed. They had no math background or graphics knowledge before we began, so if they can do it - you can too!
+I received a grant for 5 weeks to teach two students the fundamentals of ray marching from the ground up. I challenged them to gather resources, watch videos, and find holes in those resources. Our goal was to produce tutorial content to then teach ray marching to other students in the future. They decided to make videos! This page lists links to the shaders we created as well as to other content that we deemed useful to pull these students up to speed. They had no math background or graphics knowledge before we began, so if they can do it - you can too! Go ahead and [watch the youtube video!](https://youtu.be/yar60Q2idBU)
 
 The video tutorial focuses on using shader toy to teach you the fundamentals. Because of that, I decided to use another resource to provide some variety. The resource I choose is https://glsl.app. When moving to writing your own fragment shaders in a standalone application, glsl.app will be just a tad closer. Another advantage is that it can be set to compile on edit.
 
@@ -25,6 +25,7 @@ That fourth fragment shader was a lot of extra typing! But that's okay, I've dup
 <img src="fourthfrag.png" width="200">
 
 In this last segment I take the fundamentals of lighting described by Bryce and apply them to Caleb's Lamp. Caleb's shader does more by hacking in some shadows and adding in some animation, but this is all we had time to get across to you in our short grant! I hope you enjoyed learning ray marching! [Fifth Fragment Shader - Lit Lamp](fifth.frag)
+
 <img src="fifthfrag.png" width="200">
 
 In the lighting section for the lamp, it looks like taleb was using the negative of the viewing direction. This "inverted" a lot of the view-based shading (The specular component) for a neat effect. A more physically based lighting would simply use the viewing direction "rd" for those calculations. But as Caleb's light is "inside" the lamp, it wouldn't contribute much to the visible part of the scene. Here's the shader with that fix. [Fifth Frag With "Correct" Lightning"](fifthlighting.frag)
