@@ -24,6 +24,9 @@ That fourth fragment shader was a lot of extra typing! But that's okay, I've dup
 
 <img src="fourthfrag.png" width="200">
 
+In this last segment I take the fundamentals of lighting described by Bryce and apply them to Caleb's Lamp. Caleb's shader does more by hacking in some shadows and adding in some animation, but this is all we had time to get across to you in our short grant! I hope you enjoyed learning ray marching! [Fifth Fragment Shader - Lit Lamp](fifth.frag)
+<img src="fifthfrag.png" width="200">
+
 
 # Other things!
 We got to much more this summer than the tutorial video shows. They implemented clouds and heightmaps. They dove into reflections, refractions, fresnel, hard shadows, and soft shadows!  They had a few artistic and rainbow pop explorations. It is always great to have fun with it when you're learning - so don't be afraid to experiment and have a good time. If you poke around Caleb and Bryce's shadertoy, you'll bump into a few of those experimentations.
