@@ -20,7 +20,7 @@ Caleb enters the fray in the fourth segment and walks us through some of the nea
 
 <img src="thirdfrag.png" width="200">
 
-That fourth fragment shader was a lot of extra typing! But that's okay, I've duplicated a lot of that work here. The SDF functions that CAleb uses can be found on IQ's pages listed below if he did not show them in his video. But you can take them from my fragment shader as well. Caleb didn't talk about how he's getting his normals, but I mentioned that in my segment. Feel free to copy that code out of my fragment shader as well. [Fourth Fragment Shader - The Lamp](fourth.frag)
+That fourth fragment shader was a lot of extra typing! But that's okay, I've duplicated a lot of that work here. The SDF functions that Caleb uses can be found on IQ's pages listed below if he did not show them in his video. But you can take them from my fragment shader as well. Caleb didn't talk about how he's getting his normals, but I mentioned that in my segment. Feel free to copy that code out of my fragment shader as well. [Fourth Fragment Shader - The Lamp](fourth.frag)
 
 <img src="fourthfrag.png" width="200">
 
