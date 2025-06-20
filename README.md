@@ -20,6 +20,10 @@ Caleb enters the fray in the fourth segment and walks us through some of the nea
 
 <img src="thirdfrag.png" width="200">
 
+That fourth fragment shader was a lot of extra typing! But that's okay, I've duplicated a lot of that work here. The SDF functions that CAleb uses can be found on IQ's pages listed below if he did not show them in his video. But you can take them from my fragment shader as well. Caleb didn't talk about how he's getting his normals, but I mentioned that in my segment. Feel free to copy that code out of my fragment shader as well. [Fourth Fragment Shader - The Lamp](fourth.frag)
+
+<img src="fourthfrag.png" width="200">
+
 
 # Other things!
 We got to much more this summer than the tutorial video shows. They implemented clouds and heightmaps. They dove into reflections, refractions, fresnel, hard shadows, and soft shadows!  They had a few artistic and rainbow pop explorations. It is always great to have fun with it when you're learning - so don't be afraid to experiment and have a good time. If you poke around Caleb and Bryce's shadertoy, you'll bump into a few of those experimentations.
