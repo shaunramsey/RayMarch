@@ -155,9 +155,24 @@ vec3 lighting(vec3 hit, vec3 view) {
   float diffuse_and_ambient = dot(light_dir, normal) * 0.5 + 0.5;
   vec3 lambertian_amount = diffuse_and_ambient* lambertian_color;
 
-  vec3 halfvec = normalize(view + light_dir);
+  vec3 halfvec = normalize(-view + light_dir);
   vec3 specular_amount = specular_color * pow(max(0.0, dot(halfvec, normal)), 5.0);
-  return mix(lambertian_amount, specular_amount, 0.75);
+
+  float mixpct = 0.75;
+  vec3 color = mix(lambertian_amount, specular_amount, mixpct);
+
+
+  vec3 light_dir2 = normalize(vec3(2.0, 0.0, -5.0) - hit);
+  vec3 diffuse_col2 = vec3(0.3, 0.3, 0.0);
+  vec3 specular_col2 = vec3(0.9, 0.7, 0.3) * 2.0;
+  vec3 lambert2 = diffuse_col2 * max(0.0, dot(light_dir2, normal));
+  vec3 halfvec2 = normalize(-view + light_dir2);
+  vec3 specular2 = specular_col2 * pow(max(0.0, dot(halfvec2, normal)), 30.0);
+
+  color += mix(lambert2, specular2, mixpct);
+  //color = lambert2; //see what these effects are alone in debug
+  //color = specular2;
+  return color;
 }
 
 void main() {
