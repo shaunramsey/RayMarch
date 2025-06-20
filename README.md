@@ -28,7 +28,7 @@ In this last segment I take the fundamentals of lighting described by Bryce and 
 
 <img src="fifthfrag.png" width="200">
 
-In the lighting section for the lamp, it looks like taleb was using the negative of the viewing direction. This "inverted" a lot of the view-based shading (The specular component) for a neat effect. A more physically based lighting would simply use the viewing direction "rd" for those calculations. But as Caleb's light is "inside" the lamp, it wouldn't contribute much to the visible part of the scene. Here's the shader with that fix. [Fifth Frag With "Correct" Lightning"](fifthlighting.frag)
+I went ahead and added another light from behind the camera and off to the right a bit [Fifth Frag With "Another" Light"](fifthlighting.frag)
 
 <img src="fifthlightingfrag.png" width="200">
 
